@@ -1,0 +1,28 @@
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-container {
+    display: grid;
+    padding: 20px;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.card {
+    background-color: green;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+@media(max-width: 768px) {
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+        background-color: orange;
+    }
+}
+@media(max-width: 468) {
+    .card-container {
+        grid-template-columns: 1fr;
+    }
+}

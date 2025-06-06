@@ -1,0 +1,23 @@
+.changeclr {
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+    animation-name: changeclr;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    display: flex;
+}
+@keyframes changeclr {
+    from  {
+        background-color: aqua;
+        border-radius: 100px;
+    }
+    to {
+        background-color: green;
+        border: 100px;
+        border: 5px solid red;
+    }
+    }

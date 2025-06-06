@@ -1,0 +1,15 @@
+.main-scale {
+    background-color: yellow;
+    display: flex;
+    color: black;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 90px;
+}
+
+.main-scale:hover{
+    transform: scale(1.5);
+}

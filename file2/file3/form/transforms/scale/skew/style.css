@@ -1,0 +1,13 @@
+.main-skrew {
+ height: 200px;
+ width: 200px;
+ border: 2px solid;
+ justify-content: center;
+ align-items: center;
+ background-color: aqua;
+ margin: 90px;
+ display: flex;
+}
+.main-skrew:hover {
+      transform: skew(20deg, 10deg);
+}

@@ -1,0 +1,12 @@
+.move-right {
+    display: flex;
+    background-color: green;
+    color: black;
+    height: 100px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.move-right:hover {
+    transform: translate(700px, 100px);
+}
